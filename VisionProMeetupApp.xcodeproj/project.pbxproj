@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42856A592B295F6E0061B9A7 /* GameControllerHandlerSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42856A582B295F6E0061B9A7 /* GameControllerHandlerSystem.swift */; };
+		42856A5B2B29601C0061B9A7 /* GameControllerPawnComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42856A5A2B29601C0061B9A7 /* GameControllerPawnComponent.swift */; };
 		42AB02762B047795006B9F37 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 42AB02752B047795006B9F37 /* RealityKitContent */; };
 		42AB02782B047795006B9F37 /* VisionProMeetupAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB02772B047795006B9F37 /* VisionProMeetupAppApp.swift */; };
 		42AB027A2B047795006B9F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB02792B047795006B9F37 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42856A582B295F6E0061B9A7 /* GameControllerHandlerSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameControllerHandlerSystem.swift; sourceTree = "<group>"; };
+		42856A5A2B29601C0061B9A7 /* GameControllerPawnComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameControllerPawnComponent.swift; sourceTree = "<group>"; };
 		42AB02702B047794006B9F37 /* VisionProMeetupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionProMeetupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AB02742B047795006B9F37 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		42AB02772B047795006B9F37 /* VisionProMeetupAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProMeetupAppApp.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				42AB02772B047795006B9F37 /* VisionProMeetupAppApp.swift */,
 				42AB02792B047795006B9F37 /* ContentView.swift */,
 				42AB027B2B047795006B9F37 /* ImmersiveView.swift */,
+				42856A582B295F6E0061B9A7 /* GameControllerHandlerSystem.swift */,
+				42856A5A2B29601C0061B9A7 /* GameControllerPawnComponent.swift */,
 				42AB027D2B047796006B9F37 /* Assets.xcassets */,
 				42AB02822B047796006B9F37 /* Info.plist */,
 				42AB027F2B047796006B9F37 /* Preview Content */,
@@ -158,8 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				42AB027A2B047795006B9F37 /* ContentView.swift in Sources */,
+				42856A5B2B29601C0061B9A7 /* GameControllerPawnComponent.swift in Sources */,
 				42AB02782B047795006B9F37 /* VisionProMeetupAppApp.swift in Sources */,
 				42AB027C2B047795006B9F37 /* ImmersiveView.swift in Sources */,
+				42856A592B295F6E0061B9A7 /* GameControllerHandlerSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

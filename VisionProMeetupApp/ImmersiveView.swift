@@ -11,51 +11,46 @@ import RealityKitContent
 
 @MainActor
 struct ImmersiveView: View {
-    @State var floor: Entity!
-//    @State var backWall: Entity
-//    @State var frontWall: Entity
-//    @State var leftWall: Entity
-//    @State var rightWall: Entity
-    
-    @State var ball: Entity!
+    @State private var scene: Entity!
     
     var body: some View {
         RealityView { content in
-            setupRoom()
-            content.add(floor)
-            setupBall()
-            content.add(ball)
+            if let scene = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
+                self.scene = scene
+                content.add(scene)
+                content.add(setupInvisibleEntity())
+            }
+        }
+        .task {
+            do {
+                try await Task.sleep(for: .seconds(3))
+                for await _ in GameControllerHandlerSystem.shared!.asyncStream {
+                    scene.addChild(setupBall())
+                }
+            } catch {
+                return
+            }
         }
     }
     
-    func setupBall() {
+    func setupInvisibleEntity() -> Entity {
+        let myEntity = Entity()
+        myEntity.position = [0, 0, 0]
+        myEntity.components[GameControllerPawnComponent.self] = GameControllerPawnComponent()
+        
+        return myEntity
+    }
+    
+    func setupBall() -> Entity {
         let sphereResource = MeshResource.generateSphere(radius: 0.05)
         let myMaterial = SimpleMaterial(color: .orange, roughness: 0.5, isMetallic: false)
         let myEntity = ModelEntity(mesh: sphereResource, materials: [myMaterial])
-        myEntity.position = [0, 2, -2]
+        myEntity.position = [0, 2, 0]
         myEntity.generateCollisionShapes(recursive: false)
         var physicsComponent = PhysicsBodyComponent()
         physicsComponent.isAffectedByGravity = true
         myEntity.components[PhysicsBodyComponent.self] = physicsComponent
-        ball = myEntity
+        return myEntity
     }
     
-    
-    func setupRoom() {
-        setupFloor()
-    }
-    
-    func setupFloor() {
-        let boxMesh = MeshResource.generateBox(width: 100, height: 1, depth: 100)
-        let myMaterial = SimpleMaterial(color: .clear, roughness: 1.0, isMetallic: false)
-        let myEntity = ModelEntity(mesh: boxMesh, materials: [myMaterial])
-        myEntity.position = [0, -0.5, 0]
-        myEntity.generateCollisionShapes(recursive: false)
-        var physicsComponent = PhysicsBodyComponent()
-        physicsComponent.isAffectedByGravity = false
-        physicsComponent.mode = .static
-        myEntity.components[PhysicsBodyComponent.self] = physicsComponent
-        floor = myEntity
-    }
-
 }

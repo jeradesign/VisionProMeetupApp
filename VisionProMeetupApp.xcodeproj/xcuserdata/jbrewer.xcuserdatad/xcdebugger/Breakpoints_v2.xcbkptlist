@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D3AB9F4B-6392-4FDF-819F-70B4915722B8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "290832D6-9583-4224-896C-EDF84DF8E268"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionProMeetupApp/ImmersiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "290832D6-9583-4224-896C-EDF84DF8E268 - cdee5cd43dd1e921"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in VisionProMeetupApp.ImmersiveView.body.getter : some"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "290832D6-9583-4224-896C-EDF84DF8E268 - 781a1ea13b39bcf5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in VisionProMeetupApp.ImmersiveView.body.getter : some"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "290832D6-9583-4224-896C-EDF84DF8E268 - 9b7ba804e2133d2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in VisionProMeetupApp.ImmersiveView.body.getter : some"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "290832D6-9583-4224-896C-EDF84DF8E268 - b59e0d1a06edbed8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #2 @Sendable () async -&gt; () in VisionProMeetupApp.ImmersiveView.body.getter : some"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5FE867B-0713-4B48-A0F8-12592E867C73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionProMeetupApp/GameControllerHandlerSystem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "update(context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5FE867B-0713-4B48-A0F8-12592E867C73 - b26f95e528d27ff8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VisionProMeetupApp.GameControllerHandlerSystem.update(context: RealityFoundation.SceneUpdateContext) -&gt; ()"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/GameControllerHandlerSystem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "B5FE867B-0713-4B48-A0F8-12592E867C73 - 610491309a94a432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VisionProMeetupApp.GameControllerHandlerSystem.handleEntity(entity: RealityKit.Entity) -&gt; ()"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/GameControllerHandlerSystem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "B5FE867B-0713-4B48-A0F8-12592E867C73 - 610491309a94a432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VisionProMeetupApp.GameControllerHandlerSystem.handleEntity(entity: RealityKit.Entity) -&gt; ()"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/GameControllerHandlerSystem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84C0335C-66E5-405C-8DA1-7AD75D392B5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionProMeetupApp/GameControllerHandlerSystem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "handleEntity(entity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84C0335C-66E5-405C-8DA1-7AD75D392B5A - 610491309a94a75b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VisionProMeetupApp.GameControllerHandlerSystem.handleEntity(entity: RealityKit.Entity) -&gt; ()"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/GameControllerHandlerSystem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "84C0335C-66E5-405C-8DA1-7AD75D392B5A - 8ebfb5548f104e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VisionProMeetupApp.GameControllerHandlerSystem.setupController() -&gt; ()"
+                  moduleName = "VisionProMeetupApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jbrewer/proj/VisionProMeetupApp/VisionProMeetupApp/GameControllerHandlerSystem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C43A0EA-635C-4C0A-A0AB-01A71A101334"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionProMeetupApp/GameControllerHandlerSystem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "GameControllerHandlerSystem"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

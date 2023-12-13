@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct VisionProMeetupAppApp: App {
+    init() {
+        GameControllerHandlerSystem.registerSystem()
+        GameControllerPawnComponent.registerComponent()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
